@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/hichxm/IdoTekTeams/issues"
   },
-  "homepage": "https://github.com/IdoTekTeams/OpenSourceBot#readme"
+  "homepage": "https://github.com/IdoTekTeams/OpenSourceBot#readme",
+  "dependencies": {
+    "dotenv": "^6.1.0"
+  }
 }
