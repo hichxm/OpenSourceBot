@@ -5,6 +5,11 @@ const dotenv = require("dotenv");
 const path = require("path");
 
 /**
+ * Load my libs from libs dir
+ */
+const log = require("./libs/logger");
+
+/**
  * Load .env file
  */
 let env = dotenv.config({
@@ -12,7 +17,12 @@ let env = dotenv.config({
 });
 
 if (env.error) {
-    console.log("error")
+    log.error(env.error)
 } else {
-    console.log(env.parsed)
+    log.info("Environement file as parsed");
+
+    for (let parsedKey in env.parsed) {
+        log.debug(`process.env.${parsedKey}`);
+        log.debug(`\t -> ${process.env[parsedKey]}`)
+    }
 }
