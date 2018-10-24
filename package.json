@@ -1,0 +1,19 @@
+{
+  "name": "opensourcebot",
+  "version": "1.0.0",
+  "description": "Un bot discord multi-fonction et opensource !",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IdoTekTeams/OpenSourceBot.git"
+  },
+  "author": "IdoTekTeams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hichxm/IdoTekTeams/issues"
+  },
+  "homepage": "https://github.com/IdoTekTeams/OpenSourceBot#readme"
+}
